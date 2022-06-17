@@ -1,0 +1,38 @@
+#upload-file-form {
+    font-size: 14px;
+}
+
+.files-list{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.file-block{
+    background-color: #fbfafa;
+    border: 1px solid #80808069;
+    padding: 10px 25px;
+    border-radius: 7px;
+    margin: 10px
+}
+
+.file-block a{
+    color: black;
+}
+
+.file-block a:hover{
+    color: rgb(210, 18, 0);
+    text-shadow: 1px 1px 2px #f74c6a91;
+}
+
+.file-size{
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.progress-bar{
+    background-color: #447ab4;
+}

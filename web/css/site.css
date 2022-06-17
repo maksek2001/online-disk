@@ -1,0 +1,196 @@
+a:hover {
+    cursor: pointer;
+    color: #db5a03;
+    text-decoration: none;
+}
+
+:root {
+    --text-size: 18px;
+    --text-size-large: 20px;
+    --font-family: 'Montserrat';
+}
+
+@font-face {
+	font-family: Montserrat; 
+	src: url(../web/public/fonts/Montserrat-VariableFont_wght.ttf); 
+}
+
+a {
+    color: #ffffff;
+}
+
+body {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: var(--text-size);
+}
+
+.right {
+    position: absolute;
+    right: 100px;
+}
+
+main>.container-fluid {
+    padding-top: 5em;
+}
+
+.header {
+    background-color: #414242;
+}
+
+.footer {
+    background-color: #414242;
+    font-size: 0.9em;
+    height: 60px;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li>form>button.logout {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 767px) {
+    .nav li>form>button.logout {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav>li>form>button.logout:focus,
+.nav>li>form>button.logout:hover {
+    text-decoration: none;
+    color: #db5a03;
+}
+
+.nav>li>form>button.logout:focus {
+    outline: none;
+}
+
+.index-row {
+    margin-left: 20px;
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+    border: 2px solid #16ff4c;
+    padding-right: 0.75rem;
+    background-image: none;
+}
+
+.main-info {
+    width: 95%;
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.edit-form {
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #d8d8d8a8;
+}
+
+.summary-shop {
+    width: fit-content;
+    height: 35px;
+    font-weight: bold;
+    font-size: var(--text-size-large);
+    padding-top: 5px;
+    list-style: none;
+}
+
+.summary-shop:hover {
+    text-decoration: underline;
+    color: #db5a03;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 0;
+}
+
+.summary-shop:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    text-decoration: underline;
+    color: #db5a03;
+}
+
+details {
+    margin-bottom: 10px;
+}
+
+.contacts {
+    background-color: #ffffff;
+    width: 75%;
+    margin: 10px auto;
+    text-align: justify;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.a-button {
+    font-size: var(--text-size);
+    padding-top: 5px;
+    padding: 7px 1.25vw;
+    color: #fff;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(27 27 98);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.logout {
+    font-size: var(--text-size);
+}
+
+.icon {
+    width: 20px;
+    vertical-align: sub;
+    border-style: none;
+}
+
+.menu-icon {
+    width: 25px;
+    vertical-align: text-top;
+    border-style: none;
+}
+
+.middle-icon {
+    width: 30px;
+    border-style: none;
+}
+
+.large-icon {
+    width: 60px;
+    border-style: none;
+}
+
+.btn-link {
+    color: #a5a5a5;
+}
+
+.btn-link:hover {
+    color: #db5a03;
+}
